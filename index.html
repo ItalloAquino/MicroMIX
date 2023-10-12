@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>MicroMix Informática</title>
+  </head>
+  <body>
+    <header id="topHeader">
+      <div id="logo">
+        <img class="imgLogo" src="/img/logomini.png" alt="MicroMix Logo" />
+      </div>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="#inicio">HOME</a></li>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#servicos">SERVIÇOS</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="inicio">
+      <div id="textHeader">
+        <h1 class="titleOne">MicroMix Informática</h1>
+        <h2 class="titleTwo">
+          Serviços de informática, contabilidade e gestão, unindo qualidade e
+          duas décadas de experiência empresarial. Temos a melhor solução para
+          você.
+        </h2>
+        <button id="btnHeader" onclick="scrollToContato()">
+          Fale Connosco
+        </button>
+      </div>
+      <div id="imgHeader">
+        <img class="fadeIn" src="/img/technology.svg" alt="" />
+      </div>
+    </main>
+    <!-- Parceiros -->
+    <section>
+      <div id="parceiros">
+        <img
+          class="imgParceiros fadeIn"
+          src="./img/partners/acer.png"
+          alt="Acer"
+        />
+        <img
+          class="imgParceiros fadeIn"
+          src="./img/partners/dell.png"
+          alt="Dell"
+        />
+        <img
+          class="imgParceiros fadeIn"
+          src="./img/partners/eset.webp"
+          alt="Eset"
+        />
+        <img
+          class="imgParceiros fadeIn"
+          src="./img/partners/kaspersky.png"
+          alt="kaspersky"
+        />
+        <img
+          class="imgParceiros fadeIn"
+          src="./img/partners/olisoft.png"
+          alt="Olisoft"
+        />
+        <img
+          class="imgParceiros fadeIn"
+          src="./img/partners/windows.png"
+          alt="Windows"
+        />
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre">
+      <div id="imgThree">
+        <img src="./img/Webinar-pana.svg" alt="" class="imgThree" />
+      </div>
+      <div id="textThree">
+        <h1 class="titleOne" id="titleAbout">Um pouco mais sobre a MicroMIX</h1>
+        <p class="paragraphThree">
+          A MicroMIX, fundada em 2003 em Coimbra, concentra-se em servir PMEs
+          com soluções informáticas abrangentes, incluindo hardware, redes,
+          software de gestão e serviços personalizados. Destaca-se pela
+          implementação de soluções empresariais integradas e parcerias
+          estratégicas com foco na satisfação do cliente. A empresa colabora com
+          a OLISOFT para software de gestão e parceiros respeitados para
+          equipamentos e consumíveis.
+        </p>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos">
+      <div id="containerServicos">
+        <div class="card">
+          <img
+            class="imgIcons"
+            src="/img/icons/consultoria.svg"
+            alt="Consultoria"
+          />
+          <p class="paragraphFour">
+            Consultoria em informática, contabilidade e gestão de negócios.
+            Fazemos uma análise completa do que seu negócio precisa para faturar
+            mais.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/img/icons/reparacao.svg"
+            alt="Reparação e Manuntenção"
+            class="imgIcons"
+          />
+          <p class="paragraphFour">
+            Serviços de manutenção e reparação de toda gama de equipamentos
+            eletrónicos, desde os mais simples até os mais complexos.
+            Conhecimentos sólidos na manuntenção de portáteis, desktops e
+            impressoras.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/img/icons/digital.svg"
+            alt="Desenvolvimento de Websites"
+            class="imgIcons"
+          />
+          <p class="paragraphFour">
+            Desenvolvimento de software e websites para pequenas e médias
+            empresas. Não perca a oportunidade de fazer o seu negócio crescer no
+            mundo digital.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+
+    <section id="contato">
+      <div class="imgBx">
+        <img src="/img/contato.svg" alt="" />
+      </div>
+      <div class="contentBx">
+        <div class="formBx">
+          <h2>ENTRE EM CONTATO</h2>
+          <form action="" id="form">
+            <div class="inputBx">
+              <label for="user_name">Nome</label>
+              <input
+                type="text"
+                id="user_name"
+                name="user_name"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="inputBx">
+              <label for="user_email">Email</label>
+              <input
+                type="email"
+                id="user_email"
+                name="user_email"
+                placeholder="Digite seu email"
+                required
+              />
+            </div>
+            <div class="inputBx">
+              <label for="user_phone">Telefone</label>
+              <input
+                type="number"
+                id="user_phone"
+                name="user_phone"
+                placeholder="Digite seu telefone"
+                required
+              />
+            </div>
+            <div class="inputBx">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Digite aqui sua mensagem para nós."
+                required
+              ></textarea>
+            </div>
+            <div class="btnContato">
+              <button
+                type="submit"
+                id="button"
+                class="submitBtn"
+                value="Send Email"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div id="footer">
+        <div id="logoFooter">
+          <img class="logoFooter" src="/img/logomini.png" alt="" />
+        </div>
+        <div id="contactFooter">
+          <h1>Contato</h1>
+          <ul>
+            <li>
+              <img
+                class="iconFooter"
+                src="/img/icons/placeholder.png"
+                alt=""
+              />Rua Padre Estevão Cabral, 85 r/c, Coimbra, Portugal
+            </li>
+            <li>
+              <img
+                class="iconFooter"
+                src="./img/icons/phone-call.png"
+                alt=""
+              />+351 239 842 233
+            </li>
+            <li>
+              <img
+                class="iconFooter"
+                src="./img/icons/gmail.png"
+                alt=""
+              />contato@micromix.pt
+            </li>
+          </ul>
+        </div>
+        <div class="aboutFooter">
+          <h1>Sobre a MicroMIX</h1>
+          <p class="paragraphFooter">
+            Missão da MicroMIX: Fornecer soluções informáticas abrangentes e
+            personalizadas para PMEs, promovendo o sucesso empresarial por meio
+            de parcerias estratégicas e satisfação do cliente. <br />
+            Valores: Inovação, Parceria, Satisfação do Cliente.
+          </p>
+        </div>
+      </div>
+      <div class="credits">
+        <p>Developed by © Itallo Aquino - 2022</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("57Ni_ifAPNBNMZ2U4");
+      })();
+    </script>
+    <script src="/index.js"></script>
+  </body>
+</html>
