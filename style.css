@@ -948,6 +948,10 @@ footer {
     /* border: 0.06rem solid #c77013; */
   }
 
+  .titleOne {
+    font-size: 2.9rem !important;
+  }
+
   #textThree {
     text-align: center;
     flex: 1;
@@ -1002,8 +1006,8 @@ footer {
 }
 
 .paragraphFour {
-  text-align: left;
-  font-size: 1.25rem;
+  text-align: center;
+  font-size: 1.1rem;
   line-height: 1.5;
   color: #284562;
   font-weight: 400;
@@ -1046,7 +1050,7 @@ p:not(:last-child) {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 3.2rem;
+  padding: 0.5rem;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -1068,7 +1072,7 @@ p:not(:last-child) {
 .contentBx {
   flex: 1;
   padding: 3.2rem;
-  width: 40%;
+  width: 60%;
   max-width: 80%;
 
   margin: 0 auto;
@@ -1116,10 +1120,10 @@ h2 {
 button[type="submit"] {
   display: inline-block;
   padding: 0.94rem 1.875rem;
-  width: 12rem;
+  width: 50%;
   background-color: #007dfa; /* Azul */
   color: #fff;
-  font-size: 1rem;
+  font-size: 80%;
   font-weight: 600;
   border: none;
   border-radius: 0.31rem;
@@ -1132,4 +1136,39 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #ff6600; /* Laranja */
   transform: scale(1.05); /* Efeito de escala no hover */
+}
+
+/* FOOTER */
+#footer {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+#logoFooter {
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+#contactFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.liFooter {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aboutFooter {
+  margin: 0;
+  max-width: 80%;
+  padding-top: 2rem;
 }
